@@ -1,32 +1,11 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +14,197 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* // responsive */
+@media only screen and (max-width: 990px) {
+  .banner___text h1 {
+    font-size: 27px !important;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    margin-bottom: 2px !important;
+    text-align: center;
+    line-height: 40px !important;
+}
+.banner___text p {
+  padding: 0 60px;
+  text-align: center;
+  line-height: 22px !important;
+  font-size: 13px !important;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.banner___text p {
+  padding: 0 17px !important;
+}
+.banner___text button {
+  padding: 16px 48px !important;
+  background: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  font-family: "Montserrat";
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.categories h1 {
+  font-size: 27px !important;
+  margin-bottom: 60px;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+.categories___item {
+  display: grid;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr;
+  gap: 30px 20px;
+  grid-template-areas: "." !important;
+}
+.categories____item {
+  display: grid;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr;
+  gap: 30px 20px;
+  grid-template-areas: "." !important;
+}
+.categories {
+  padding: 30px 30px !important;
+  font-family: "Montserrat";
+}
+.products____item {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important;
+  grid-template-rows: 1fr;
+  gap: 30px 20px;
+}
+.categories h1 {
+  font-size: 36px;
+  margin-bottom: 39px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 40px !important;
+}
+.how-to-sell {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr !important;
+  gap: 30px 20px;
+  grid-template-areas: "." !important;
+  margin-top: 30px;
+  padding: 0 30px;
+}
+.text {
+  background: white;
+  padding: 20px !important;
+  position: relative !important;
+  width: 100% !important;
+  left: 0px !important;
+  border-radius: 14px;
+}
+.how-to-sell {
+  display: grid;
+  grid-template-columns: 1fr!important;
+  grid-template-rows: 1fr !important;
+  gap: 30px 20px;
+  grid-template-areas: "." !important;
+  margin-top: 30px !important;
+  padding: 0 30px;
+}
+.how-to-sell {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr !important;
+  gap: 30px 20px !important;
+  grid-template-areas: "." !important;
+  margin-top: 0px !important;
+  padding: 0 30px !important;
+}
+.reviews-description {
+  margin-top: 110px !important;
+}
+.reviews-description h4 {
+  font-size: 20px !important;
+  margin: 0;
+  padding: 11px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+.reviews-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100% !important;
+  margin: 0 auto;
+  text-align: center;
+  height: 100% !important;
+}
+.reviews-description {
+  margin-top: 37px !important;
+}
+.reviews-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100% !important;
+  margin: 0 auto;
+  text-align: center;
+  height: 70vh;
+}
+.reviews-description h4 {
+  font-size: 20px;
+  margin: 0;
+  padding: 11px 0 !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+.text-center.get-start button {
+  font-size: 13px !important;
+  font-family: "Montserrat";
+  padding: 16px 62px !important;
+  margin-top: 10px !important;
+  background: #15023A !important;
+  color: #FFF;
+  text-transform: uppercase;
+  border: 1px solid #15023A;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.text h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  color: #15023A !important;
+}
+.text p {
+  font-size: 13px !important;
+  line-height: 21px !important;
+  font-weight: 300 !important;
+  color: #767676 !important;
+}
+.sells-img {
+  display: none;
+}
+.container {
+  width: 100% !important;
+  margin: 0 auto;
+}
+.text h3 {
+  font-size: 16px !important;
+  margin-bottom: 0px !important;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  color: #15023A ;
+}
+.items h4 {
+  color: #FFF;
+  padding: 12px 18px;
+  margin: 0;
+  font-size: 23px !important;
+  font-weight: 400;
+}
 }

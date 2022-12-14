@@ -1,0 +1,32 @@
+.reviews-description img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviews-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    height: 70vh;
+}
+
+.reviews-description h4 {
+    font-size: 22px;
+    margin: 0;
+    padding: 17px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+.reviews-description p {
+    font-size: 15px;
+    line-height: 33px;
+    font-family: 'Montserrat';
+}
